@@ -1,0 +1,136 @@
+.bg-white{ 
+  background: white;
+}
+
+.bg-pink{
+  background: url('http://i.imgur.com/Ln2HucF.jpg');
+  background-size: cover;
+  padding-top: 60px;
+}
+
+.margin-headshot{
+  margin-top: 20px;
+  padding: 0px;
+}
+
+#Info {
+  margin-top: 20px;
+}
+
+#Info p {
+  color: grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Info-h1 {
+  color: grey;
+}
+
+.bg-blue {
+  background: #3a97d2;
+  margin-bottom: 30px;
+  text-align: center;
+  
+}
+
+.bg-blue a {
+  color: #fff;
+  font-size: 20px;
+  display:inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.style-hr {
+  background-color: #926BAE;
+  width: 600px;
+}
+
+
+.header-bg-contact {
+  background: url('http://unsplash.com/photos/1DGD2_CKCbo/download?force=true');
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  height: 300px;
+  text-align: center !important;
+  padding-top: 100px;
+  padding-bottom: 75px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  padding-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+  }
+
+ul{
+  margin-top: 0px;
+ }
+
+.padding-li {
+   padding-top: 0px;
+}
+
+.header-bg-education {
+  background: url('http://unsplash.com/photos/tvPvROBv0F4/download?force=true');
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  height: 300px;
+  text-align: center !important;
+  padding-top: 100px;
+  padding-bottom: 75px;
+  margin-bottom: 40px;
+}
+
+
+.margin-education {
+  margin-bottom: 30px;
+}
+
+
+.header-bg-experience {
+  background: url('http://unsplash.com/photos/JHHDUs23wjA/download?force=true');
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  height: 300px;
+  text-align: center !important;
+  padding-top: 100px;
+  padding-bottom: 75px;
+  margin-bottom: 40px;
+}
+
+
+.margin-experience {
+  margin-bottom: 30px;
+}
+
+.style-hr {
+  background-color: #926BAE;
+}
+
+
+.header-bg-skills {
+  background: url('http://unsplash.com/photos/SvMwcHfPV14/download?force=true');
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  height: 300px;
+  text-align: center !important;
+  padding-top: 100px;
+  padding-bottom: 75px;
+  margin-bottom: 40px;
+}
+
+
+ul {
+  list-style-type: none;
+}
