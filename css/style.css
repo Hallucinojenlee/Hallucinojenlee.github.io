@@ -1,9 +1,17 @@
-.bg-white{ 
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+</style>
+
+.body {
+  font-family: 'Roboto Condensed', sans-serif; 
+}
+
+.bg-white{
   background: white;
 }
 
 .bg-pink{
-  background: url('http://i.imgur.com/Ln2HucF.jpg');
+  background: bg-pink.jpg;
   background-size: cover;
   padding-top: 60px;
 }
@@ -27,11 +35,23 @@
   color: grey;
 }
 
+.info-social-media {
+  letter-spacing: 0.5em;
+}
+
+.lead {
+  margin: 0 auto;
+}
+
+#Interests {
+  text-align:left;
+}
+
 .bg-blue {
   background: #3a97d2;
   margin-bottom: 30px;
   text-align: center;
-  
+
 }
 
 .bg-blue a {
@@ -49,7 +69,7 @@
 
 
 .header-bg-contact {
-  background: url('http://unsplash.com/photos/1DGD2_CKCbo/download?force=true');
+  background: bg-contact.jpg;
   background-size: cover;
   color: white;
   text-shadow: 2px 2px 2px black;
@@ -79,7 +99,7 @@ ul{
 }
 
 .header-bg-education {
-  background: url('http://unsplash.com/photos/tvPvROBv0F4/download?force=true');
+  background: bg-education.jpg;
   background-size: cover;
   color: white;
   text-shadow: 2px 2px 2px black;
@@ -97,7 +117,7 @@ ul{
 
 
 .header-bg-experience {
-  background: url('http://unsplash.com/photos/JHHDUs23wjA/download?force=true');
+  background: bg-experience.jpg;
   background-size: cover;
   color: white;
   text-shadow: 2px 2px 2px black;
@@ -119,7 +139,7 @@ ul{
 
 
 .header-bg-skills {
-  background: url('http://unsplash.com/photos/SvMwcHfPV14/download?force=true');
+  background: bg-skills.jpg;
   background-size: cover;
   color: white;
   text-shadow: 2px 2px 2px black;
