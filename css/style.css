@@ -1,41 +1,37 @@
-<style>
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
-</style>
 
-.body {
-  font-family: 'Roboto Condensed', sans-serif; 
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: px;
 }
 
 .bg-white{
   background: white;
 }
 
+.bg-white p, h1 {
+  color: grey;
+  line-height: normal;
+  margin-left: 10%;
+}
+
 .bg-pink{
-  background: bg-pink.jpg;
+  background: url('../bg-pink.jpg');
   background-size: cover;
-  padding-top: 60px;
+  padding-top: 8%;
 }
 
 .margin-headshot{
-  margin-top: 20px;
   padding: 0px;
 }
 
-#Info {
-  margin-top: 20px;
-}
 
-#Info p {
-  color: grey;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
-.Info-h1 {
-  color: grey;
-}
 
-.info-social-media {
+
+
+.list-inline {
+
   letter-spacing: 0.5em;
 }
 
@@ -43,9 +39,7 @@
   margin: 0 auto;
 }
 
-#Interests {
-  text-align:left;
-}
+
 
 .bg-blue {
   background: #3a97d2;
@@ -64,12 +58,13 @@
 
 .style-hr {
   background-color: #926BAE;
-  width: 600px;
+  width: 60%;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-
 .header-bg-contact {
-  background: bg-contact.jpg;
+  background: url('../bg-contact.jpg');
   background-size: cover;
   color: white;
   text-shadow: 2px 2px 2px black;
@@ -86,20 +81,15 @@ h1 {
 
 ul {
   list-style-type: none;
-  text-align: center;
-  margin: 20px 20px 20px 20px;
+  margin: 20px;
   }
-
-ul{
-  margin-top: 0px;
- }
 
 .padding-li {
    padding-top: 0px;
 }
 
 .header-bg-education {
-  background: bg-education.jpg;
+  background: url('../bg-education.jpg');
   background-size: cover;
   color: white;
   text-shadow: 2px 2px 2px black;
@@ -112,12 +102,17 @@ ul{
 
 
 .margin-education {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
+  line-height: 2em;
 }
 
 
+.education-item p, ul{
+  margin: 0;
+}
+
 .header-bg-experience {
-  background: bg-experience.jpg;
+  background: url('../bg-experience.jpg');
   background-size: cover;
   color: white;
   text-shadow: 2px 2px 2px black;
@@ -133,13 +128,9 @@ ul{
   margin-bottom: 30px;
 }
 
-.style-hr {
-  background-color: #926BAE;
-}
-
 
 .header-bg-skills {
-  background: bg-skills.jpg;
+  background: url('../bg-skills.jpg');
   background-size: cover;
   color: white;
   text-shadow: 2px 2px 2px black;
@@ -150,7 +141,6 @@ ul{
   margin-bottom: 40px;
 }
 
-
-ul {
-  list-style-type: none;
+.skills-items {
+  margin: 40px;
 }
